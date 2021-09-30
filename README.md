@@ -16,3 +16,4 @@ https://belvg.com/blog/the-functionality-and-basic-concepts-of-price-generation-
 https://bsscommerce.com/confluence/magento-2-pricing/
 
 https://belvg.com/blog/how-to-use-and-customize-magento-2-catalog-products-and-categories-price-and-price-rules.html
+https://magento.stackexchange.com/questions/208255/magento-2-show-custom-fee-in-admin-invoice-pdf
