@@ -1,5 +1,5 @@
 # Magelearn_CustomFee
-Add Extra Fee to customer for each order based on fixed amount or percentage amount at Checkout Magento2
+AddA Magento 2 module that adds custom extra fee to customer for each order based on fixed amount with or without tax at checkout.
 
 https://webkul.com/blog/display-custom-price-fee-checkout-cart-summary-total-magento2/
 
