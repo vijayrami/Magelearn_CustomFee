@@ -1,0 +1,20 @@
+{
+    "name": "magelearn/module-custom-fee",
+    "description": "A Magento 2 module that adds custom extra fee to customer for each order based on fixed amount or percentage of amount at checkout",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "vijay rami",
+            "email": "vijaymrami@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Magelearn\\CustomFee\\": ""
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <customfee>
+        	<customfee>
+                <status>1</status>
+                <name>Custom Fee</name>
+                <customfee_amount>10</customfee_amount>
+                <minimum_order_amount>30</minimum_order_amount>
+            </customfee>
+        </customfee>
+    </default>
+</config>
