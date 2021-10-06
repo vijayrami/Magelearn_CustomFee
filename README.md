@@ -1,6 +1,14 @@
 # Magelearn_CustomFee
 Add Extra Fee to customer for each order based on fixed amount or percentage amount at Checkout Magento2
 
+## Features
+
+#### 1. Modify and add in totals of Magento with JS.
+
+#### 2. Check usages of sales.xml file.
+
+## Screen Shots
+
 [![Annotate-a-local-image.png](https://i.postimg.cc/0jp8cVbY/Annotate-a-local-image.png)](https://postimg.cc/tn4QgtdJ)
 
 [![Shopping-Cart.png](https://i.postimg.cc/kXq97F2H/Shopping-Cart.png)](https://postimg.cc/nMRNkmYK)
