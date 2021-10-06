@@ -66,7 +66,6 @@ define([
             };
 
             payloadExtender(payload);
-
             fullScreenLoader.startLoader();
 
             return storage.post(
