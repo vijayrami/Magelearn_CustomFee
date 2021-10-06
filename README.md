@@ -5,6 +5,10 @@ Add Extra Fee to customer for each order based on fixed amount or percentage amo
 
 [![Shopping-Cart.png](https://i.postimg.cc/kXq97F2H/Shopping-Cart.png)](https://postimg.cc/nMRNkmYK)
 
+[![Checkout.png](https://i.postimg.cc/76WQRz5m/Checkout.png)](https://postimg.cc/9RypRrt7)
+
+[![Screenshot-from-2021-10-06-10-48-41.png](https://i.postimg.cc/gcwY2qHc/Screenshot-from-2021-10-06-10-48-41.png)](https://postimg.cc/pyHN0jS3)
+
 https://webkul.com/blog/display-custom-price-fee-checkout-cart-summary-total-magento2/
 
 https://webkul.com/blog/manage-custom-amount-paypal-magento2/
