@@ -1,6 +1,10 @@
 # Magelearn_CustomFee
 Add Extra Fee to customer for each order based on fixed amount or percentage amount at Checkout Magento2
 
+[![Annotate-a-local-image.png](https://i.postimg.cc/0jp8cVbY/Annotate-a-local-image.png)](https://postimg.cc/tn4QgtdJ)
+
+[![Shopping-Cart.png](https://i.postimg.cc/kXq97F2H/Shopping-Cart.png)](https://postimg.cc/nMRNkmYK)
+
 https://webkul.com/blog/display-custom-price-fee-checkout-cart-summary-total-magento2/
 
 https://webkul.com/blog/manage-custom-amount-paypal-magento2/
