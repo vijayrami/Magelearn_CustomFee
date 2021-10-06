@@ -48,7 +48,9 @@ define([
               $(".gift-fee-error").show(); // show hidden message
               $('[name="gift_fee"]').focus();
               return false;
-             }
+            } else {
+            	$(".gift-fee-error").hide();
+            }
            
             if (!quote.billingAddress() && quote.shippingAddress().canUseForBilling()) {
                 selectBillingAddressAction(quote.shippingAddress());
