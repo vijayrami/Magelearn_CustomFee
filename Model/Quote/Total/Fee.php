@@ -202,7 +202,7 @@ class Fee extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
 
 
         //$total->setBaseMcPaymentfeeTaxAmount($baseTax);
-        $total->setFeeTax($tax);
+        $total->setFee($tax);
 
         $appliedRates = $this->taxCalculator->getAppliedRates($taxRateRequest);
         $this->_saveAppliedTaxes($address, $appliedRates, $tax, $baseTax, $rate);
