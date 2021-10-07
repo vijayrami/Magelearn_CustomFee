@@ -18,7 +18,7 @@ class Fee extends AbstractTotal
         $creditmemo->setFee($amount);
 
         $creditmemo->setGrandTotal($creditmemo->getGrandTotal() + $creditmemo->getFee());
-        $creditmemo->setBaseGrandTotal($creditmemo->getBaseGrandTotal() + $creditmemo->getBaseFee());
+        $creditmemo->setBaseGrandTotal($creditmemo->getBaseGrandTotal() + $creditmemo->getFee());
 
         return $this;
     }
