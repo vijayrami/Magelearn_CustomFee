@@ -19,7 +19,7 @@ AddA Magento 2 module that adds custom extra fee to customer for each order base
 
 [![000000053-Orders-Operations-Sales-Magento-Admin-1.png](https://i.postimg.cc/HxrVHGLd/000000053-Orders-Operations-Sales-Magento-Admin-1.png)](https://postimg.cc/9RjWtnTn)
 
-## Referances
+## Referances 
 
 https://webkul.com/blog/display-custom-price-fee-checkout-cart-summary-total-magento2/
 
