@@ -1,0 +1,35 @@
+{
+    "sales_order": {
+        "column": {
+            "fee": true,
+            "fee_tax": true,
+            "gift_fee_check": true
+        }
+    },
+    "quote": {
+        "column": {
+            "fee": true,
+            "fee_tax": true,
+            "gift_fee_check": true
+        }
+    },
+    "quote_address": {
+        "column": {
+            "fee": true,
+            "fee_tax": true,
+            "gift_fee_check": true
+        }
+    },
+    "sales_invoice": {
+        "column": {
+            "fee": true,
+            "fee_tax": true
+        }
+    },
+    "sales_creditmemo": {
+        "column": {
+            "fee": true,
+            "fee_tax": true
+        }
+    }
+}

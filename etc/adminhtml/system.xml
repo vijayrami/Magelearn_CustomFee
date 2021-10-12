@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="customfee" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Custom Fee</label>
+            <tab>sales</tab>
+            <resource>Magelearn_CustomFee::config_customfee</resource>
+            <group id="customfee" translate="label" type="text" sortOrder="500" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Custom Fee Configuration</label>
+                <field id="status" translate="label comment" type="select" sortOrder="1" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Status</label>
+                    <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+                <field id="name" translate="label comment" type="text" sortOrder="2" showInDefault="1"
+                       showInWebsite="1" showInStore="1">
+                    <label>Fee Name</label>
+                    <depends>
+                        <field id="customfee/customfee/status">1</field>
+                    </depends>         
+                </field>
+                <field id="customfee_amount" translate="label comment" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custom Fee Amount</label>
+                    <validate>validate-number validate-zero-or-greater required</validate>
+					<comment><![CDATA[Applies as Fixed Amount]]></comment>
+					<depends>
+                        <field id="customfee/customfee/status">1</field>
+                    </depends>
+                </field>
+                <field id="minimum_order_amount" translate="label comment" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Minimum Order Amount To Display Custom Fee</label>
+                    <comment><![CDATA[Greaterthan or equal to]]></comment>
+                    <validate>validate-number validate-zero-or-greater</validate>
+                    <depends>
+                        <field id="customfee/customfee/status">1</field>
+                    </depends>
+                </field>
+            </group>
+            <group id="tax" translate="label" type="text" sortOrder="600" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Custom Fee Tax</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Calculate Tax On Custom Fee</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="tax_class" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Tax Class</label>
+                    <source_model>Magento\Tax\Model\TaxClass\Source\Product</source_model>
+                    <depends><field id="customfee/tax/enable">1</field></depends>
+                </field>
+                <field id="display" translate="label comment" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Custom Fee</label>
+                    <source_model>Magento\Tax\Model\System\Config\Source\Tax\Display\Type</source_model>
+                    <depends><field id="customfee/tax/enable">1</field></depends>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

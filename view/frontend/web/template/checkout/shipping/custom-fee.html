@@ -1,0 +1,18 @@
+<div data-bind="visible: canVisibleCustomfeeBlock" data-trigger="trigger">
+    <input type="checkbox" name="gift_fee_check" data-bind="checked: allowGiftFee" />
+    <span data-bind="text: getFormattedPrice()" class="price" style="font-weight: 600"></span>
+    <span data-bind="text: getFeeLabel()"></span>
+</div>
+<div data-bind="mageInit: {
+        'Magento_Ui/js/modal/modal':{
+            'type': 'popup',
+            'title': 'Custom Fee',
+            'trigger': '[data-trigger=trigger]',
+            'responsive': true,
+            'buttons': [{
+                text: 'OK',
+                class: 'action'
+            }]
+        }}">
+    <div class="content">We are taking custom gift wrapping fee for this order. Please accept Custom Fee Checkbox before proceed.</div>
+</div>
