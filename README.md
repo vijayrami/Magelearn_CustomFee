@@ -11,7 +11,7 @@ AddA Magento 2 module that adds custom extra fee to customer for each order base
 
 [![Annotate-a-local-image.png](https://i.postimg.cc/0jp8cVbY/Annotate-a-local-image.png)](https://postimg.cc/tn4QgtdJ)
 
-[![Shopping-Cart.png](https://i.ibb.co/0Dfx7y7/Shopping-Cart-tax.png)](https://ibb.co/tmb9GpG)
+[![Shopping-Cart.png](https://i.ibb.co/cgNjBhB/Shopping-Cart-tax.png)](https://ibb.co/tmb9GpG)
 
 [![Checkout.png](https://i.postimg.cc/76WQRz5m/Checkout.png)](https://postimg.cc/9RypRrt7)
 
