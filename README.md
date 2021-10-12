@@ -1,7 +1,7 @@
 # Magelearn_CustomFee
 AddA Magento 2 module that adds custom extra fee to customer for each order based on fixed amount with or without tax at checkout.
 
-## Features 1
+## Features
 
 #### 1. Modify and add in totals of Magento with JS.
 
